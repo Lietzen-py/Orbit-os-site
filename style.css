@@ -1,0 +1,220 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: rgb(163, 163, 163, 0.5); /* Transparent background color for glass effect */
+    color: #5c5c5c;
+    padding: 10px 0;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    /* Add blur effect to the background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: rgb(255, 255, 255, 0.0);
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(41, 41, 41, 0.5);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Features section styles */
+.features {
+    background-color:rgb(255, 255, 255, 0.0);
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+}
+
+.features h1 {
+    font-size: 1.5em;
+    align-self: center;
+    color: rgb(61, 61, 61, 0.5);
+    height: 50%;
+    width: 100%; /* Adjust as needed */
+  border: 10px solid rgb(255,255,255,0.0);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255,255,255,0.5);
+}
+.features h2 {
+    font-size: 1.5em;
+    align-self: center;
+    color: rgb(61, 61, 61, 0.5);
+    width: 50%; /* Adjust as needed */
+  border: 1px solid rgb(255,255,255,0.0);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255,255,255,0.5);
+}
+
+.features ul {
+    list-style: none;
+    width: 30%; /* Adjust as needed */
+  border: 1px solid rgb(255,255,255,0.0);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255,255,255,0.5);
+}
+
+.features ul li {
+    margin: 10px 0;
+}
+
+/* Download section styles */
+.download {
+    background-color:  rgb(150, 150, 150, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.download h2 {
+    font-size: 1.5em;
+}
+
+.download a.btn {
+    background-color: #fff;
+    color: #969696;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download a.btn:hover {
+    background-color: #ccc;
+}
+
+@keyframes moveBackground {
+    from { background-position: 0px 0px; }
+    to   { background-position: 0px -200px; /* Adjust offset as needed */ }
+}
+@keyframes moveBackground {
+    from { background-position: 0px -200px; }
+    to   { background-position: 0px 0px; /* Adjust offset as needed */ }
+}
+.logo { text-align: center; margin-bottom: 20px; }
+.bento-box {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.bento-compartment {
+  width: 30%; /* Adjust as needed */
+  border: 1px solid rgb(255,255,255,0.0);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255,255,255,0.5); /* Light background color */
+}
+.cookie-banner {
+      background-color: rgb(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    /* Light background */
+      color: #333;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100; /* Ensure it stays on top */
+    }
+
+    .cookie-banner img {
+      height: 30px; /* Adjust as needed */
+    }
+
+    .cookie-banner p {
+      margin: 0;
+    }
+
+    .cookie-banner button {
+      background-color: rgb(128, 210, 255,0.5); /* Blue button */
+      color: rgb(255,255,255);
+      backdrop-filter: blur(5px);
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .cookie-banner button:hover {
+      background-color: #0069d9; /* Darker blue on hover */
+    
+    .os a.btn {
+    background-color: #fff;
+    color: #969696;
+    padding: 30px 20px;
+    border-radius: 5px;
+    text-decoration: none;}}
+.logo {
+    text-align: left;
+    margin-bottom: 1px;
+    width: 1px;
+}
