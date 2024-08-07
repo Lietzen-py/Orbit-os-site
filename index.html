@@ -1,68 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJP0NKPCXK"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-FJP0NKPCXK');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orbit OS</title>
+    <title>Orbit OS - Your Next Operating System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="mainlogo.png" alt="Orbit OS Logo">
+        </div>
         <nav>
             <ul>
-                <li>
-                </li> 
-              <li><a href="login.html">Log in</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="Downloads.html">Downloads</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-          </ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#downloads">Downloads</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
-  <main>
-        <section class="hero">
-            <h2>Welcome to Orbit OS</h2>
-            <p>A fast, modern and beautiful OS, and it just works</p>
-            <a href="#" class="btn">Get Started</a>
-        </section>
-        <section class="features">
-            <h1>Key Features</h1>
-        </section>
-        <section class="bento-box">
-          <div class="bento-compartment">
-            <h3>Compatible</h3>
-            <p>orbit os is compatible with almost every system. (limitations)</p>
-          </div>
-          <div class="bento-compartment">
-            <h3>Customiz-ability is key</h3>
-            <p>Orbit OS is able to change to your preferences with community themes</p>
-          </div>
-          <div class="bento-compartment">
-            <h3>A robust bootloader</h3>
-            <p>The bootloader, lockerboot will make sure you dont get locked out from ransomware, viruses, or potentially unwanted programs from starting up, and it will boot up with your wallpaper!</p>
-          </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Orbit OS: The Future of Computing</h1>
+            <p>Experience a faster, more secure, and intuitive operating system designed for the modern world.</p>
+            <button class="btn" onclick="window.location.href='#downloads'">Download Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.svg" alt="Hero Image">
+        </div>
     </section>
-       <section class="os">
-      <a href="wrscratch.html" class="btn">wolfysrevenge os's backup</a>
-  </section>
-        </section>
-            <section class="download">
-            <h2>Download Now</h2>
-            <a href="#" class="btn">Download</a>
-        </section>
-  </main>
+
+    <section class="features" id="features">
+        <h2>Features</h2>
+        <div class="features-container">
+            <div class="feature">
+                <img src="icon-1.svg" alt="Icon 1">
+                <h3>Compatibility</h3>
+                <p>Orbit OS is designed to be compatible with a wide range of devices and systems, ensuring a seamless user experience.</p>
+            </div>
+            <div class="feature">
+                <img src="icon-2.svg" alt="Icon 2">
+                <h3>Customization</h3>
+                <p>Orbit OS offers extensive customization options, allowing you to personalize your operating system according to your preferences.</p>
+            </div>
+            <div class="feature">
+                <img src="icon-3.svg" alt="Icon 3">
+                <h3>A Robust Bootloader</h3>
+                <p>Orbit OS's robust bootloader, Lockerboot, provides enhanced security and stability, protecting your system from threats.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="downloads" id="downloads">
+        <h2>Downloads</h2>
+        <div class="download-options">
+            <button class="btn download-btn" onclick="window.location.href='https://github.com/infernostars/orbitos'">Alpha repo</button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Team galaxy is a team of passionate developers dedicated to creating a better operating system for everyone. We believe that technology should be accessible, intuitive, and secure.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or feedback? We'd love to hear from you!</p>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Team Galaxy. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://discord.gg/Wd6ugwdbhe"><img src="social-icon-1.svg" alt="official Orbit OS discord server"></a></li>
+            <li><a href="https://www.youtube.com/@Orbit_OS"><img src="social-icon-2.svg" alt="youtube"></a></li>
+            <li><a href="https://github.com/infernostars/orbitos"><img src="social-icon-3.svg" alt="github repo"></a></li>
+        </ul>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
